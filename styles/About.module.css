@@ -1,0 +1,81 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/images/ogbg50.png");
+    background-size: cover;
+    margin: 50px;
+    padding-bottom: 200px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.left {
+    width: 200px;
+}
+.right {
+    width: 35%;
+    text-align: left;
+}
+.container p {
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.box1 {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: -100px;
+}
+.box2 {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: -100px;
+    opacity: 0.75;
+}
+.box3 {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: -100px;
+    opacity: 0.5;
+}
+.box4 {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: -100px;
+    opacity: 0.3;
+}
+.deco {
+    display: grid;
+    grid-column-gap: 7px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 15px);
+}
+.decoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.container h1 {
+    font-size: 35pt;
+}
+.container h2 {
+    text-align: left;
+    font-size: 25pt;
+    margin-left: 78px;
+}
+.heading {
+    width: 50%;
+
+}

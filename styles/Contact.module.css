@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    margin-right: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    margin-top: 20px;
+    width: 30px;
+}
+.left {
+    margin-left: 12%;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+.left h1 {
+    font-size: 35pt;
+    margin-bottom: 5px;
+}
+.left p {
+    font-family: "Jura", sans-serif;
+    font-weight: 600 !important;
+}
+.container form {
+    width: 90%;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: row;
+}
+.formRow input {
+    margin-right: 20px;
+    width: 100%;
+}
+.formRow textarea {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    border: 0.7px solid rgb(200, 200, 200);
+    border-radius: 2px;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    height: 80px;
+    font-family: "Jura";
+    font-size: 20pt;
+    font-weight: 900;
+    padding: 20px;
+    animation: empty 0.2s forwards;
+}
+.btn:hover {
+    cursor: pointer;
+    animation: fill 0.2s forwards;
+
+}
+
+.container p {
+    font-size: 15pt;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 13pt !important;
+    margin-top: 0px;
+    font-weight: 400 !important;
+    opacity: 0.5;
+}
+
+.container input {
+    height: 40px;
+    background-color: rgb(250, 250, 250);
+    border: 0.7px solid rgb(200, 200, 200);
+    border-radius: 2px;
+}
+@keyframes fill {
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+@keyframes empty {
+    0% {
+        background-color: black;
+        color: white;
+    }
+    100% {
+        background-color: transparent;
+        color: black;
+    }
+}

@@ -1,0 +1,22 @@
+.container {
+    padding: 10px;
+    margin: 40px;
+    padding: 50px;
+    background-image: url("../assets/images/mask.png");
+    background-size: cover;
+    text-align: center;
+}
+.container p {
+    width: 35%;
+    margin: auto;
+    font-size: 16pt;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.container h1 {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 50pt;
+}

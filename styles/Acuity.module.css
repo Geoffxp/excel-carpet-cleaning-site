@@ -1,0 +1,13 @@
+.container {
+    overflow: hidden;
+}
+.content {
+    float: inline-start;
+}
+.eraser {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 225px;
+    margin-top: -200px;
+}
