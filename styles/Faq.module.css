@@ -18,7 +18,7 @@
 .container2 {
     padding: 10px;
     margin: 40px;
-    background-image: url("../assets/images/faq30.png");
+    background-image: url("../assets/images/bg30flip.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
