@@ -15,8 +15,6 @@ export default function Acuity() {
                 width="100%" 
                 height="1000px" 
                 frameBorder="0" />
-            
-            <div className={styles.eraser}></div>
         </div>
     )
 }
