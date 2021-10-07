@@ -11,7 +11,7 @@ export default function Footer() {
                 estimate, or same day service. Email us at
                 excelcarpetcleaning@gmail.com</p>
             <Link href="/contact"><a>Contact Us</a></Link>
-            <Link href="/contact"><a>About Us</a></Link>
+            <Link href="/about"><a>About Us</a></Link>
         </div>
     )
 }
