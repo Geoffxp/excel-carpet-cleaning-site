@@ -13,7 +13,15 @@ export default function Contact() {
                 <p>excelcarpetcleaning@gmail.com</p>
                 <p>(425) 394-0404</p>
                 <p>26828 Maple Valley Hwy, Suite 194, Maple Valley, WA 98038</p>
-                <a target="_blank" href="https://www.facebook.com/excelcarpetcleaninginc"><div className={styles.icon}><Image src={fb}/></div></a>
+                <a 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    href="https://www.facebook.com/excelcarpetcleaninginc"
+                >
+                    <div className={styles.icon}>
+                        <Image src={fb} alt="fbicon"/>
+                    </div>
+                </a>
             </div>
             <div className={styles.col}>
                 <form target="_blank" action="https://formsubmit.co/excelcarpetcleaning@gmail.com" method="POST">

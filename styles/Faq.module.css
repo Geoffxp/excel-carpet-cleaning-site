@@ -4,5 +4,62 @@
     background-image: url("../assets/images/bg30.png");
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.content1 {
+    width: 60%;
+    margin: auto;
+}
+.content2 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.container2 {
+    padding: 10px;
+    margin: 40px;
+    background-image: url("../assets/images/faq30.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    font-size: 35pt;
+    text-align: center;
+}
+.container1 p {
+    font-size: 15pt;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.container1 li {
+    font-size: 18pt;
+    font-weight: 300;
+    font-family: "Jura", sans-serif;
+}
+.container1 ul {
+    list-style: none;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+.container1 ul li:before { 
+    content:"•"; 
+    font-size:20pt; 
+    margin-right: 10px;
+}
+.container2 p {
+    font-size: 15pt;
+    font-weight: 300;
+    margin-bottom: 50px;;
+}
+.container1 h2 {
+    font-size: 25pt;
+}
+.container2 h2 {
+    font-size: 25pt;
+}
+.container2 h1 {
+    font-size: 30pt;
 }

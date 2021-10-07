@@ -13,7 +13,7 @@ export default function Home() {
       <Intro />
       <Covid />
       <div className={styles.teamImg}>
-        <Image src={team} />
+        <Image src={team} alt="teamPhoto" />
       </div>
       
     </div>

@@ -11,7 +11,7 @@ export default function Nav() {
         <>
             <nav className={styles.nav}>
                 <div className={styles.bannerContainer}>
-                    <Link href="/"><Image 
+                    <Link href="/" passHref={true}><Image 
                         onClick={() => setTab(-1)}
                         className={styles.banner} 
                         src={banner} 
@@ -20,32 +20,32 @@ export default function Nav() {
                         objectFit="contain"/></Link>
                 </div>
                 <ul>
-                    <Link href="/scheduling">
+                    <Link href="/scheduling" passHref={true}>
                         <li onClick={() => setTab(1)} className={tab === 1 ? styles.active : null}>
                             <h3>SCHEDULING</h3>
                         </li>
                     </Link>
-                    <Link href="/about">
+                    <Link href="/about" passHref={true}>
                         <li onClick={() => setTab(2)} className={tab === 2 ? styles.active : null}>
                         <h3>ABOUT US</h3>  
                         </li>
                     </Link> 
-                    <Link href="/services">
+                    <Link href="/services" passHref={true}>
                         <li onClick={() => setTab(3)} className={tab === 3 ? styles.active : null}>
                             <h3>SERVICES / PRICING</h3>    
                         </li>
                     </Link>
-                    <Link href="/contact">
+                    <Link href="/contact" passHref={true}>
                         <li onClick={() => setTab(4)} className={tab === 4 ? styles.active : null}>
                             <h3>CONTACT US</h3>  
                         </li>
                     </Link> 
-                    <Link href="/faq">
+                    <Link href="/faq" passHref={true}>
                         <li onClick={() => setTab(5)} className={tab === 5 ? styles.active : null}>
                             <h3>FAQ</h3>
                         </li>
                     </Link>   
-                    <Link href="/gallery">
+                    <Link href="/gallery" passHref={true}>
                         <li onClick={() => setTab(6)} className={tab === 6 ? styles.active : null}>
                             <h3>GALLERY</h3>  
                         </li>

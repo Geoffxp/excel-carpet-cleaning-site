@@ -3,14 +3,14 @@ import styles from "../styles/Covid.module.css"
 export default function Intro() {
     return (
         <div className={styles.container}>
-            <h1>WE'RE HERE FOR YOU.</h1>
+            <h1>WE&apos;RE HERE FOR YOU.</h1>
             <p>At Excel Carpet Cleaning Inc., the safety of our
                 customers and employees is always on our minds. As
                 everyone is feeling the impact of the coronavirus
-                (COVID-19), I want to share with you the steps we're
+                (COVID-19), I want to share with you the steps we&apos;re
                 taking to help.</p>
 
-            <p>We’re watching local and national reports on the ever-
+            <p>We&apos;re watching local and national reports on the ever-
                 changing impact of COVID-19 and adjusting accordingly.</p>
 
             <p>We have always had antibacterial soap and hand
@@ -31,7 +31,7 @@ export default function Intro() {
                 equipment are exceptionally clean and sanitary, and
                 safe. Again, the health and safety of our customers,
                 employees and our communities are very important to
-                us, and we're committed to doing our part.</p>
+                us, and we&apos;re committed to doing our part.</p>
 
             <p>Thank you,
                 Mike and Mary Jarman
