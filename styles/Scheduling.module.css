@@ -2,3 +2,8 @@
     text-align: center;
     font-size: 35pt;
 }
+@media (max-width: 600px) {
+    .container h1 {
+        font-size: 20pt;
+    }
+}

@@ -136,7 +136,7 @@ export default function ServiceGrid() {
                     <div className={styles.gridItem}>
                         <h1>RUGS</h1>
                         <div className={styles.imgContainer}><Image src={rug} alt="rug" layout="fill" objectFit="cover" /></div>
-                        <h1>Prices go here!</h1>
+                        <h1>Inquire by phone!</h1>
                         <h2>Offsite deep water bath!</h2>
                         <h2>Urine Removal Specialists!</h2>
                     </div>

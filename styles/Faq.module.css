@@ -63,3 +63,54 @@
 .container2 h1 {
     font-size: 30pt;
 }
+
+@media (max-width: 775px) {
+    .container1 {
+        padding: 10px;
+        margin: 40px;
+        background-image: url("../assets/images/bg30.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+    .content1 {
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    .content1 h2 {
+        font-size: 20pt;
+    }
+    .content2 h2 {
+        font-size: 20pt;
+    }
+    .container1 ul li:before { 
+        content:""; 
+        margin: 0;
+        text-align: center;
+    }
+    .container1 ul {
+        padding: 0;
+    }
+    .content2 {
+        width: 75%;
+    }
+    .container2 {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container1 {
+        margin: 0;
+    }
+    .container2 {
+        margin: 0;
+    }
+    .content1 {
+        width: 90%;
+    }
+    .content2 {
+        width: 90%;
+    }
+}

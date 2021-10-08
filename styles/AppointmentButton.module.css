@@ -42,3 +42,23 @@
         color: black;
     }
 }
+
+@media (max-width: 600px) {
+    .btn {
+        height: 70px;
+        font-size: 14pt;
+    }
+    .container {
+        height: 100px;
+    }
+}
+@media (max-width: 450px) {
+    .btn {
+        height: 50px;
+        font-size: 12pt;
+        padding: 10px;
+    }
+    .container {
+        height: 75px;
+    }
+}

@@ -26,5 +26,40 @@
     margin: auto;
     font-size: 13pt;
     font-weight: 500;
-
+}
+@media (max-width: 1250px) {
+    .footer p {
+        width: 50%;
+    }
+    .footer h1 {
+        font-size: 25pt;
+    }
+}
+@media (max-width: 600px) {
+    .footer p {
+        font-size: 12pt;
+        width: 75%;
+    }
+    .footer h1 {
+        font-size: 20pt;
+    }
+    .footer a {
+        font-size: 12pt;
+    }
+}
+@media (max-width: 450px) {
+    .footer p {
+        font-size: 10pt;
+        width: 90%;
+    }
+    .footer h1 {
+        font-size: 18pt;
+    }
+    .footer a {
+        font-size: 10pt;
+        width: 50%;
+    }
+    .footer {
+        margin: 0;
+    }
 }

@@ -20,3 +20,38 @@
     margin-bottom: 50px;
     font-size: 50pt;
 }
+@media (max-width: 1250px) {
+    .container p {
+        width: 75%;
+    }
+    .container h {
+        width: 95%;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 5%;
+        padding-bottom: 40px;
+    }
+    .container p {
+        width: 80%;
+        font-size: 13pt;
+    }
+    .container h1 {
+        padding-top: 40px;
+        width: 90%;
+        font-size: 30pt;
+    }
+}
+@media (max-width: 450px) {
+    .container {
+        margin: 0;
+    }
+    .container h1 {
+        font-size: 18pt;
+    }
+    .container p {
+        font-size: 12pt;
+        width: 100%;
+    }
+}

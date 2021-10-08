@@ -40,3 +40,45 @@
     font-size: 18pt;
     font-weight: 400 !important;
 }
+
+@media (max-width: 1250px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .col {
+      width: 100%;
+  }
+}
+@media (max-width: 600px) {
+    .container {
+        text-align: center;
+    }
+    .container h1 {
+        font-size: 25pt;
+        text-align: center;
+    }
+    .container h2 {
+        font-size: 15pt;
+        text-align: center;
+    }
+    .container p {
+        font-size: 13pt;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        margin: 0;
+    }
+    .container h1 {
+        font-size: 18pt;
+    }
+    .container h2 {
+        font-size: 13pt;
+    }
+    .container p {
+        font-size: 12pt;
+    }
+}

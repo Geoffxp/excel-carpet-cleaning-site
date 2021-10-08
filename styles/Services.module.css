@@ -13,6 +13,7 @@
 .gridItem {
     width: 100%;
     height: fit-content;
+    
 }
 .imgContainer {
     position: relative;
@@ -42,5 +43,42 @@
     100% {
         background-color: transparent;
         color: black;
+    }
+}
+@media (max-width: 1400px) {
+    .container h1 {
+        font-size: 21pt;
+    }
+}
+@media (max-width: 1250px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container h1 {
+        font-size: 25pt;
+    }
+    .container {
+        margin: 10px;
+    }
+}
+@media (max-width: 950px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container {
+        margin: 10%;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        margin: 0%;
+    }
+    .grid {
+        gap: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .grid {
+        width: 90%
     }
 }
