@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: row;
+    animation: fade 1s forwards;
 }
 
 .col {
@@ -85,6 +86,26 @@
     border: 0.7px solid rgb(200, 200, 200);
     border-radius: 2px;
 }
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lateFade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes fill {
     to {
         background-color: black;

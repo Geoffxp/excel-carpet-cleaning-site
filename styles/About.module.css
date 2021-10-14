@@ -7,12 +7,14 @@
     background-size: cover;
     margin: 50px;
     padding-bottom: 200px;
+    animation: fade 1s forwards;
 }
 .row {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
     margin-bottom: 15px;
+    animation: lateFade 1s forwards;
 }
 .left {
     width: 200px;
@@ -60,6 +62,7 @@
     grid-template-rows: repeat(3, 15px);
 }
 .decoBox {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +79,28 @@
     margin-left: 78px;
 }
 .heading {
+    animation: lateFade 1s forwards;
     width: 50%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lateFade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 1250px) {

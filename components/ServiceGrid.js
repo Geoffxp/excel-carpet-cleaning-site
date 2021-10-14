@@ -16,7 +16,7 @@ export default function ServiceGrid() {
         <>
             <div className={styles.container}>
                 <div className={styles.grid}>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem1}>
                         <h1>CARPET</h1>
                         <div className={styles.imgContainer}><Image src={carpet} alt="carpet" layout="fill" objectFit="cover" /></div>
                         <h2>Any 5 Rooms/Areas only $249.00</h2>
@@ -27,7 +27,7 @@ export default function ServiceGrid() {
                         Living room and dining room combos  and large bonus rooms equal two areas.
                         Max 14x14 ft per room/area.
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem2}>
                         <h1>UPHOLSTERY</h1>
                         <div className={styles.imgContainer}><Image src={upholstery} alt="upholstery" layout="fill" objectFit="cover" /></div>
                         <h2>Couch &amp; Loveseat Special! $199</h2>
@@ -37,14 +37,14 @@ export default function ServiceGrid() {
                         <h3>Sectional: $20.00 per linear foot</h3>
 
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem3}>
                         <h1>TILE</h1>
                         <div className={styles.imgContainer}><Image src={tile} alt="tile" layout="fill" objectFit="cover" /></div>
                         <h2>Floor Tile &amp; Grout</h2>
                         <h3>Cleaning: $1.00 (Per sq ft)</h3>
                         <h3>Sealant: $.50  (Per Sq Ft)</h3>
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem4}>
                         <h1>COMMERCIAL CARPET</h1>
                         <div className={styles.imgContainer}><Image src={commercial} alt="commercial" layout="fill" objectFit="cover" /></div>
                         <h2>$.20* to .30 Per Sq Ft</h2>
@@ -64,7 +64,7 @@ export default function ServiceGrid() {
                             Corporation, White River CU,
                             and Sammamish Bluff Condos.</p>
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem5}>
                         <h1>PET TREATMENT</h1>
                         <div className={styles.imgContainer}><Image src={pet} alt="pet" layout="fill" objectFit="cover" /></div>
                         <h2>$20.00 Per Area*</h2>
@@ -83,7 +83,7 @@ export default function ServiceGrid() {
                             carpet after the cleaning is
                             finished.</h3>
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem6}>
                         <h1>SCOTCHGARD</h1>
                         <div className={styles.imgContainer}><Image src={scotch} alt="scotch" layout="fill" objectFit="cover" /></div>
                         <h2>$15.00 Per Area*</h2>
@@ -102,7 +102,7 @@ export default function ServiceGrid() {
                             cleaned regularly and treated
                             with Scotchgard protectant.</h2>
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem7}>
                         <h1>HARDWOOD FLOOR</h1>
                         <div className={styles.imgContainer}><Image src={wood} alt="wood" layout="fill" objectFit="cover" /></div>
                         <h2>$1.00 (per sq ft)</h2>
@@ -111,7 +111,7 @@ export default function ServiceGrid() {
                             will bring the life back to your floors, and with no risk
                             of swelling or scratching!</h3>
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem8}>
                         <h1>AIR DUCTS</h1>
                         <div className={styles.imgContainer}><Image src={duct} alt="duct" layout="fill" objectFit="cover" /></div>
                         <a href="https://www.youtube.com/watch?v=aYjLtgu4Zo4" target="_blank" rel="noreferrer"><h1>&rarr;RAMAIR DEMO VIDEO&larr;</h1></a>
@@ -133,7 +133,7 @@ export default function ServiceGrid() {
 
                         The patented RamAir ClearView Duct Cleaning System is the most effective system to date, as well as being the first system ever created that allows the homeowner to actually see all the dust and debris as it is being removed from the duct system by way of a clear polycarbonate viewing box.This revolutionary new system has been quickly gaining recognition and praise worldwide.
                     </div>
-                    <div className={styles.gridItem}>
+                    <div className={styles.gridItem9}>
                         <h1>RUGS</h1>
                         <div className={styles.imgContainer}><Image src={rug} alt="rug" layout="fill" objectFit="cover" /></div>
                         <h1>Inquire by phone!</h1>

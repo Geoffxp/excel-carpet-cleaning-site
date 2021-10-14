@@ -5,15 +5,18 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    animation: fade 1s forwards;
 }
 .content1 {
     width: 60%;
     margin: auto;
+    animation: lateFade 1s forwards;
 }
 .content2 {
     width: 50%;
     text-align: center;
     margin: auto;
+    animation: lateFade 1s forwards;
 }
 .container2 {
     padding: 10px;
@@ -22,10 +25,12 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+    animation: fade 1s forwards;
 }
 .header {
     font-size: 35pt;
     text-align: center;
+    animation: fade 1s forwards;
 }
 .container1 p {
     font-size: 15pt;
@@ -62,6 +67,26 @@
 }
 .container2 h1 {
     font-size: 30pt;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lateFade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 775px) {

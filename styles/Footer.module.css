@@ -6,6 +6,7 @@
     width: 100%;
     position: absolute;
     text-align: center;
+    animation: lateFade 1s forwards
 }
 .footer p {
     width: 25%;
@@ -26,6 +27,25 @@
     margin: auto;
     font-size: 13pt;
     font-weight: 500;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lateFade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 @media (max-width: 1250px) {
     .footer p {

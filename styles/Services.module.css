@@ -9,12 +9,71 @@
     gap: 50px;
     margin: auto;
     text-align: center;
+    animation: fade 1s forwards;
 }
-.gridItem {
+.gridItem1 {
     width: 100%;
     height: fit-content;
-    
+    opacity: 0;
+    animation: lateFade 1s forwards;
 }
+.gridItem2 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.1s;
+}
+.gridItem3 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.2s;
+}
+.gridItem4 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.3s;
+}
+.gridItem5 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.4s;
+}
+.gridItem6 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.5s;
+}
+.gridItem7 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.6s;
+}
+.gridItem8 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.7s;
+}
+.gridItem9 {
+    width: 100%;
+    height: fit-content;
+    opacity: 0;
+    animation: lateFade 1s forwards;
+    animation-delay: 0.8s;
+}
+
 .imgContainer {
     position: relative;
     width: 100%;
@@ -27,6 +86,26 @@
 }
 .container a h1:hover {
     animation: fill 0.3s forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lateFade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fill {

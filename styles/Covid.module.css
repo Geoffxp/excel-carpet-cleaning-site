@@ -5,6 +5,7 @@
     background-image: url("../assets/images/mask.png");
     background-size: cover;
     text-align: center;
+    animation: lateFade 1.75s forwards;
 }
 .container p {
     width: 35%;
@@ -20,6 +21,19 @@
     margin-bottom: 50px;
     font-size: 50pt;
 }
+
+@keyframes lateFade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @media (max-width: 1250px) {
     .container p {
         width: 75%;

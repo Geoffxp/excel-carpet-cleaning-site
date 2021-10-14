@@ -1,5 +1,6 @@
 .container {
   min-height: 100vh;
+  animation: lateFade 2s forwards;
 }
 
 .teamImg {
@@ -8,6 +9,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@keyframes lateFade {
+  0% {
+      opacity: 0;
+  }
+  25% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 @media (max-width: 450px) {
