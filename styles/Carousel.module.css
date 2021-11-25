@@ -28,14 +28,29 @@
     margin: 20px;
     filter: drop-shadow(10px 10px 4px #808080)
 }
+.deck {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
 .active {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     opacity: 1;
 }
 .inactive {
+    position: relative;
+    width: 100px;
+    max-height: 100px;
+    object-fit: cover;
     opacity: 0.5;
 }
 .expandBtn {
     filter:brightness(30);
+    opacity: 0.5;
     content: url("../assets/images/expand.png");
     position: absolute;
     z-index: 999999;
@@ -48,6 +63,7 @@
 .closeBtn {
     content: url("../assets/images/close.png");
     filter:brightness(30);
+    opacity: 0.5;
     position: absolute;
     z-index: 999999;
     width: 75px;
@@ -87,4 +103,81 @@
     border-right: 10px inset;
     border-bottom: 10px inset;
     cursor: pointer;
+}
+.btnBox {
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width: 900px) {
+    .btnBox {
+        margin: 10px;
+        height: 25px;
+        width: 25px;
+    }
+    .leftBtn {
+        border-left: 5px ridge;
+        border-bottom: 5px ridge;
+        height: 25px;
+        width: 25px;
+    }
+    .leftBtn:hover {
+        border-left: 5px inset;
+        border-bottom: 5px inset;
+        cursor: pointer;
+    }
+    .rightBtn {
+        border-right: 5px ridge;
+        border-bottom: 5px ridge;
+        height: 25px;
+        width: 25px;
+    }
+    .rightBtn:hover {
+        border-right: 5px inset;
+        border-bottom: 5px inset;
+        cursor: pointer;
+    }
+    .expandBtn {
+        width: 50px;
+    }
+    .closeBtn {
+        width: 50px;
+    }
+}
+
+@media (max-width: 775px) {
+    .active {
+        width: 75px;
+        height: 75px;
+    }
+    .inactive {
+        width: 75px;
+        height: 75px;
+    }
+    .btnBox {
+        margin: 10px;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        width: 95%;
+    }
+    .active {
+        width: 50px;
+        height: 50px;
+    }
+    .inactive {
+        width: 50px;
+        height: 50px;
+    }
+    .expandBtn {
+        width: 35px;
+    }
+    .closeBtn {
+        width: 35px;
+    }
 }

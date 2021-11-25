@@ -47,7 +47,7 @@ export default function ServiceGrid() {
                     <div className={styles.gridItem4}>
                         <h1>COMMERCIAL CARPET</h1>
                         <div className={styles.imgContainer}><Image src={commercial} alt="commercial" layout="fill" objectFit="cover" /></div>
-                        <h2>$.20* to .30 Per Sq Ft</h2>
+                        <h2>$.24* to .30 Per Sq Ft</h2>
                         <h3>($199.00 Minimum Charge)</h3>
                         <p>(*Larger sq ft = Larger Discount)</p>
                         <h3>We clean office buildings,
