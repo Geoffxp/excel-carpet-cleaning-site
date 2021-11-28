@@ -1,183 +1,31 @@
-.carousel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 75%;
-    border: 15px outset;
-    border-radius: 15px;
-    background-color: rgb(201, 201, 201);
-}
-.caroConsole {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.main {
-    position: relative;
-    display: block;
-    max-height: 600px;
-    overflow: hidden;
-    margin: 20px;
-    filter: drop-shadow(10px 10px 4px #808080)
-}
-.fullSize {
-    position: relative;
-    max-height: auto;
-    margin: 20px;
-    filter: drop-shadow(10px 10px 4px #808080)
-}
-.deck {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-}
-.active {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    opacity: 1;
-}
-.inactive {
-    position: relative;
-    width: 100px;
-    max-height: 100px;
-    object-fit: cover;
-    opacity: 0.5;
-}
-.expandBtn {
-    filter:brightness(30);
-    opacity: 0.5;
-    content: url("../assets/images/expand.png");
-    position: absolute;
-    z-index: 999999;
-    width: 75px;
-    right: 0;
-}
-.expandBtn:hover {
-    cursor: pointer;
-}
-.closeBtn {
-    content: url("../assets/images/close.png");
-    filter:brightness(30);
-    opacity: 0.5;
-    position: absolute;
-    z-index: 999999;
-    width: 75px;
-    right: 0;
-}
-.closeBtn:hover {
-    cursor: pointer;
-}
-.leftBtn {
-    width: 50px;
-    height: 50px;
-    border-left: 10px ridge;
-    border-bottom: 10px ridge;
-    transform: rotate(45deg);
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-.leftBtn:hover {
-    border-left: 10px inset;
-    border-bottom: 10px inset;
-    cursor: pointer;
-}
-.rightBtn {
-    width: 50px;
-    height: 50px;
-    border-right: 10px ridge;
-    border-bottom: 10px ridge;
-    transform: rotate(-45deg);
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-.rightBtn:hover {
-    border-right: 10px inset;
-    border-bottom: 10px inset;
-    cursor: pointer;
-}
-.btnBox {
-    margin: 20px;
-    height: 50px;
-    width: 50px;
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
-@media (max-width: 900px) {
-    .btnBox {
-        margin: 10px;
-        height: 25px;
-        width: 25px;
-    }
-    .leftBtn {
-        border-left: 5px ridge;
-        border-bottom: 5px ridge;
-        height: 25px;
-        width: 25px;
-    }
-    .leftBtn:hover {
-        border-left: 5px inset;
-        border-bottom: 5px inset;
-        cursor: pointer;
-    }
-    .rightBtn {
-        border-right: 5px ridge;
-        border-bottom: 5px ridge;
-        height: 25px;
-        width: 25px;
-    }
-    .rightBtn:hover {
-        border-right: 5px inset;
-        border-bottom: 5px inset;
-        cursor: pointer;
-    }
-    .expandBtn {
-        width: 50px;
-    }
-    .closeBtn {
-        width: 50px;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-@media (max-width: 775px) {
-    .active {
-        width: 75px;
-        height: 75px;
-    }
-    .inactive {
-        width: 75px;
-        height: 75px;
-    }
-    .btnBox {
-        margin: 10px;
-        height: 25px;
-        width: 25px;
-    }
-}
-
-@media (max-width: 600px) {
-    .carousel {
-        width: 95%;
-    }
-    .active {
-        width: 50px;
-        height: 50px;
-    }
-    .inactive {
-        width: 50px;
-        height: 50px;
-    }
-    .expandBtn {
-        width: 35px;
-    }
-    .closeBtn {
-        width: 35px;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
